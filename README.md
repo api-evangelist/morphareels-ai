@@ -64,45 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Morpha is an AI‑driven video editor for short‑form social platforms such as Reels, TikTok and Shorts. It runs in the browser, lets users generate videos via Claude, ChatGPT or Gemini prompts, then fine‑tune clips, captions, text and images before exporting MP4s for free. Every project is also drivable programmatically via a RESTful API and an npm SDK, with unlimited usage on the free tier.
+Morpha is an AI-driven video editor for short-form social video, offering a programmatic API that lets developers generate, edit, and render Reels, TikToks, and Shorts. Users can ask Claude to create video content and then fine‑tune it in the browser, with free rendering. The platform provides multilingual support and integrates with popular tools, targeting creators and businesses seeking automated video production.
 
-**Areas:** AI · Video Editing · Social Media · No-code · SaaS
+**Areas:** AI · Video · Editor · API · Reels · Company
 
 ## Morpha on APIs.io
 
 Everything profiled for Morpha is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/morphareels-ai/](https://apis.io/providers/morphareels-ai/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
+### APIs (1)
 
-- [Morpha API](https://apis.io/apis/morphareels-ai/morpha-api/) — Programmatic API for Morpha video editing platform.
-- [Morpha API](https://apis.io/apis/morphareels-ai/morphareels-ai-api/) — Morpha API as documented publicly: 11 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own document.
+- [Morpha API](https://apis.io/apis/morphareels-ai/morpha-api/) — Programmatic API for Morpha video editor
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [GetApiTrashResponse](https://apis.io/schemas/morphareels-ai/morphareels-ai-get-api-trash-response/)
-- [PostApiToolNameRequest](https://apis.io/schemas/morphareels-ai/morphareels-ai-post-api-tool-name-request/)
-- [PostApiToolRequest](https://apis.io/schemas/morphareels-ai/morphareels-ai-post-api-tool-request/)
-- [PostApiUploadAssetProjectidRequest](https://apis.io/schemas/morphareels-ai/morphareels-ai-post-api-upload-asset-projectid-request/)
-- [PostApiUploadAssetProjectidResponse](https://apis.io/schemas/morphareels-ai/morphareels-ai-post-api-upload-asset-projectid-response/)
-- [PostApiUploadAssetRequest](https://apis.io/schemas/morphareels-ai/morphareels-ai-post-api-upload-asset-request/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Morphareels Ai Context](https://apis.io/jsonld/morphareels-ai/morphareels-ai-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [Morpha API Rules](https://apis.io/rules/morphareels-ai/morphareels-ai-rules/)
 
 #### Security (1)
 
@@ -117,29 +93,31 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Website](https://morphareels.ai/)
 - [Documentation](https://morphareels.ai/docs)
 - [Getting started](https://morphareels.ai/docs/getting-started)
-- [Pricing](https://morphareels.ai/pricing)
+- [API reference](https://morphareels.ai/docs)
+- [Pricing](https://morphareels.ai/#pricing)
 - [Support](https://morphareels.ai/support)
 - [Terms of service](https://morphareels.ai/terms)
 - [Privacy policy](https://morphareels.ai/privacy)
+- [GitHub](https://github.com/morphareels)
 
 ## API Evangelist rating
 
-**Kin Score 42.7** — developing · rubric 0.28.0 · scored 2026-11-19
+**Kin Score 19.9** — emerging · rubric 0.28.0 · scored 2026-11-19
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 53.4 |
-| Contract governance | 79.1 |
-| Operational transparency | 0.0 |
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 33.3 |
 | Access clarity | 36.2 |
 
-**Agent readiness 32.9** — agent-ready
+**Agent readiness 21.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
+| Spec Presence | — |
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
@@ -158,11 +136,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | — |
-| Operation Distinctiveness | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/morphareels-ai/](https://apis.io/providers/morphareels-ai/).
 
